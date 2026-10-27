@@ -1,0 +1,39 @@
+# Sistema e editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Dados locais e segredos
+.env
+.env.*
+!.env.example
+privado/
+
+# Originais e arquivos de trabalho audiovisual
+originais/
+brutos/
+exports/
+*.psd
+*.psb
+*.ai
+*.prproj
+*.aep
+*.aepx
+*.drp
+*.blend
+*.cr2
+*.cr3
+*.nef
+*.arw
+*.dng
+*.r3d
+*.braw
+
+# Dependências e saídas futuras
+node_modules/
+dist/
+coverage/
